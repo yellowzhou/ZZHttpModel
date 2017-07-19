@@ -12,6 +12,6 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"%p: {\nname: %@,\ntype: %@\nprotocol: %@\n}}",_name,_type,_protocolName];
+    return [NSString stringWithFormat:@"%p: {\nname: %@,\ntype: %@\nprotocol: %@\n}",self,_name,_type,_protocolName];
 }
 @end

@@ -32,12 +32,12 @@
     model.index = random();
     model.imgUrl = @"www.baidu.com";
     
-    UserModel *m1 = [self usermodel];
-    UserModel *m2 = [self usermodel];
-    UserModel *m3 = [self usermodel];
+//    UserModel *m1 = [self usermodel];
+//    UserModel *m2 = [self usermodel];
+//    UserModel *m3 = [self usermodel];
     
-    model.users  =@[m1,m2,m3];
-    model.model = [self usermodel];
+//    model.users  =@[m1,m2,m3];
+//    model.model = [self usermodel];
     return model;
 }
 
@@ -54,23 +54,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    ADModel *adModel = [ADModel model];
+//    ADModel *adModel = [ADModel model];
     
-    NSDictionary *dic = [adModel toDictionary];
-    NSString *json = [adModel toJsonString];
-    
-    ADModel *m1 = [[ADModel alloc]initWithDictionary:dic];
-    ADModel *m2 = [[ADModel alloc]initWithString:json];
-    
-    NSLog(@"%@",dic);
-    NSLog(@"%@",json);
-    
-    UserModel *user1 = m1.users.firstObject;
-    UserModel *user2 = adModel.users.firstObject;
-    
-    if ([user1.sid isEqualToString:user1.sid]) {
-        NSLog(@"equal .....");
-    }
+//    NSDictionary *dic = [adModel toDictionary];
+//    NSString *json = [adModel toJsonString];
+//    
+//    ADModel *m1 = [[ADModel alloc]initWithDictionary:dic];
+//    ADModel *m2 = [[ADModel alloc]initWithString:json];
+//    
+//    NSLog(@"%@",dic);
+//    NSLog(@"%@",json);
+//    
+//    UserModel *user1 = m1.users.firstObject;
+//    UserModel *user2 = adModel.users.firstObject;
+//    
+//    if ([user1.sid isEqualToString:user1.sid]) {
+//        NSLog(@"equal .....");
+//    }
     
 }
 

@@ -225,6 +225,7 @@
 				TargetAttributes = {
 					0FF1B2DC1F1F5EEF00FB2F88 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6X8465QS7A;
 						ProvisioningStyle = Automatic;
 					};
 					0FF1B2F51F1F5EEF00FB2F88 = {
@@ -391,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -433,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -444,7 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6X8465QS7A;
 				INFOPLIST_FILE = ZZHttpModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yellow.zhou.ZZHttpModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,7 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6X8465QS7A;
 				INFOPLIST_FILE = ZZHttpModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yellow.zhou.ZZHttpModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,6 +532,7 @@
 				0FF1B30C1F1F5EEF00FB2F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FF1B30D1F1F5EEF00FB2F88 /* Build configuration list for PBXNativeTarget "ZZHttpModelTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +541,7 @@
 				0FF1B30F1F1F5EEF00FB2F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FF1B3101F1F5EEF00FB2F88 /* Build configuration list for PBXNativeTarget "ZZHttpModelUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +550,7 @@
 				0FF1B3121F1F5EEF00FB2F88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

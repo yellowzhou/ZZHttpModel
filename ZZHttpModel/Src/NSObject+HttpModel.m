@@ -79,8 +79,10 @@ static const char * kClassPropertiesKey = "key";
     objc_setAssociatedObject(self.class, kClassPropertiesKey, ppDictionary, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-designated-initializers"
 - (id)initWithDictionary:(NSDictionary *)data
+#pragma clang diagnostic pop
 {
     if (![data isKindOfClass:[NSDictionary class]]) {
         return nil;
