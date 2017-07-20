@@ -11,7 +11,7 @@
 
 #import "ZZClassProperty.h"
 
-static const char * kClassPropertiesKey = "key";
+static const char * kClassPropertiesKey = "kClassPropertiesKey";
 
 
 @implementation NSObject (HttpModel)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F8383101F2051DB00112139 /* ZZHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83830F1F2051DB00112139 /* ZZHttpModel.m */; };
+		0F8383181F20870A00112139 /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8383171F20870A00112139 /* NSJSONSerialization+Extension.m */; };
 		0FF1B2E21F1F5EEF00FB2F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1B2E11F1F5EEF00FB2F88 /* main.m */; };
 		0FF1B2E51F1F5EEF00FB2F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1B2E41F1F5EEF00FB2F88 /* AppDelegate.m */; };
 		0FF1B2E81F1F5EEF00FB2F88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1B2E71F1F5EEF00FB2F88 /* ViewController.m */; };
@@ -17,6 +19,7 @@
 		0FF1B3061F1F5EEF00FB2F88 /* ZZHttpModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1B3051F1F5EEF00FB2F88 /* ZZHttpModelUITests.m */; };
 		0FF1B3181F1F5F3100FB2F88 /* NSObject+HttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1B3151F1F5F3100FB2F88 /* NSObject+HttpModel.m */; };
 		0FF1B3191F1F5F3100FB2F88 /* ZZClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1B3171F1F5F3100FB2F88 /* ZZClassProperty.m */; };
+		11DC37D1D0B53A3F0900169D /* libPods-ZZHttpModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B05665F40CD578EDC8ADD641 /* libPods-ZZHttpModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F83830E1F2051DB00112139 /* ZZHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHttpModel.h; sourceTree = "<group>"; };
+		0F83830F1F2051DB00112139 /* ZZHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHttpModel.m; sourceTree = "<group>"; };
+		0F8383161F20870A00112139 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
+		0F8383171F20870A00112139 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
 		0FF1B2DD1F1F5EEF00FB2F88 /* ZZHttpModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZHttpModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF1B2E11F1F5EEF00FB2F88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FF1B2E31F1F5EEF00FB2F88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +64,9 @@
 		0FF1B3151F1F5F3100FB2F88 /* NSObject+HttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HttpModel.m"; sourceTree = "<group>"; };
 		0FF1B3161F1F5F3100FB2F88 /* ZZClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZClassProperty.h; sourceTree = "<group>"; };
 		0FF1B3171F1F5F3100FB2F88 /* ZZClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZClassProperty.m; sourceTree = "<group>"; };
+		38AD58EB47A654AC423DBD92 /* Pods-ZZHttpModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZHttpModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZHttpModel/Pods-ZZHttpModel.debug.xcconfig"; sourceTree = "<group>"; };
+		7D36E466FF8B563A2971ACFF /* Pods-ZZHttpModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZHttpModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZHttpModel/Pods-ZZHttpModel.release.xcconfig"; sourceTree = "<group>"; };
+		B05665F40CD578EDC8ADD641 /* libPods-ZZHttpModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZHttpModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DC37D1D0B53A3F0900169D /* libPods-ZZHttpModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +102,8 @@
 				0FF1B2F91F1F5EEF00FB2F88 /* ZZHttpModelTests */,
 				0FF1B3041F1F5EEF00FB2F88 /* ZZHttpModelUITests */,
 				0FF1B2DE1F1F5EEF00FB2F88 /* Products */,
+				40514FC2FB135F4AE7569887 /* Pods */,
+				64C91F972071EC032580363D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +125,8 @@
 				0FF1B2E41F1F5EEF00FB2F88 /* AppDelegate.m */,
 				0FF1B2E61F1F5EEF00FB2F88 /* ViewController.h */,
 				0FF1B2E71F1F5EEF00FB2F88 /* ViewController.m */,
+				0F8383161F20870A00112139 /* NSJSONSerialization+Extension.h */,
+				0F8383171F20870A00112139 /* NSJSONSerialization+Extension.m */,
 				0FF1B2E91F1F5EEF00FB2F88 /* Main.storyboard */,
 				0FF1B2EC1F1F5EEF00FB2F88 /* Assets.xcassets */,
 				0FF1B2EE1F1F5EEF00FB2F88 /* LaunchScreen.storyboard */,
@@ -154,8 +169,27 @@
 				0FF1B3151F1F5F3100FB2F88 /* NSObject+HttpModel.m */,
 				0FF1B3161F1F5F3100FB2F88 /* ZZClassProperty.h */,
 				0FF1B3171F1F5F3100FB2F88 /* ZZClassProperty.m */,
+				0F83830E1F2051DB00112139 /* ZZHttpModel.h */,
+				0F83830F1F2051DB00112139 /* ZZHttpModel.m */,
 			);
 			path = Src;
+			sourceTree = "<group>";
+		};
+		40514FC2FB135F4AE7569887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38AD58EB47A654AC423DBD92 /* Pods-ZZHttpModel.debug.xcconfig */,
+				7D36E466FF8B563A2971ACFF /* Pods-ZZHttpModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64C91F972071EC032580363D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B05665F40CD578EDC8ADD641 /* libPods-ZZHttpModel.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FF1B30A1F1F5EEF00FB2F88 /* Build configuration list for PBXNativeTarget "ZZHttpModel" */;
 			buildPhases = (
+				899D7701BEAC6A384C57EC90 /* [CP] Check Pods Manifest.lock */,
 				0FF1B2D91F1F5EEF00FB2F88 /* Sources */,
 				0FF1B2DA1F1F5EEF00FB2F88 /* Frameworks */,
 				0FF1B2DB1F1F5EEF00FB2F88 /* Resources */,
+				E26DE59D2DAE94380C8040BB /* [CP] Embed Pods Frameworks */,
+				B1C23912D574C1CD6552D925 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +324,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		899D7701BEAC6A384C57EC90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C23912D574C1CD6552D925 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZHttpModel/Pods-ZZHttpModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26DE59D2DAE94380C8040BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZHttpModel/Pods-ZZHttpModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FF1B2D91F1F5EEF00FB2F88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,6 +380,8 @@
 				0FF1B2E81F1F5EEF00FB2F88 /* ViewController.m in Sources */,
 				0FF1B2E51F1F5EEF00FB2F88 /* AppDelegate.m in Sources */,
 				0FF1B2E21F1F5EEF00FB2F88 /* main.m in Sources */,
+				0F8383181F20870A00112139 /* NSJSONSerialization+Extension.m in Sources */,
+				0F8383101F2051DB00112139 /* ZZHttpModel.m in Sources */,
 				0FF1B3181F1F5F3100FB2F88 /* NSObject+HttpModel.m in Sources */,
 				0FF1B3191F1F5F3100FB2F88 /* ZZClassProperty.m in Sources */,
 			);
@@ -443,6 +530,7 @@
 		};
 		0FF1B30B1F1F5EEF00FB2F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AD58EB47A654AC423DBD92 /* Pods-ZZHttpModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6X8465QS7A;
@@ -456,6 +544,7 @@
 		};
 		0FF1B30C1F1F5EEF00FB2F88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D36E466FF8B563A2971ACFF /* Pods-ZZHttpModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6X8465QS7A;
