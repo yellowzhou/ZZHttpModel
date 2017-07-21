@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+
 
 @interface ZZHTTPResponse : NSObject
 

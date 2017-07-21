@@ -7,7 +7,7 @@
 //
 
 #import "ZZHttpModel.h"
-#import <AFNetworking.h>
+
 
 @implementation ZZHTTPResponse
 
